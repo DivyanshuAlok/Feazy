@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152226867053",
+    "firebase_url": "https://feazy-2cffa.firebaseio.com",
+    "project_id": "feazy-2cffa",
+    "storage_bucket": "feazy-2cffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152226867053:android:c01f7a451b9ebf0e981c64",
+        "android_client_info": {
+          "package_name": "com.feazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152226867053-lcd2so5lar5do0ju4mk61gl58qlphev8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBExIySgVtbxsOm0r0L9wycXdZoqaG8j5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152226867053-lcd2so5lar5do0ju4mk61gl58qlphev8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
