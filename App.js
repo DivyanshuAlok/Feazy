@@ -17,10 +17,10 @@ export default class extends Component {
     return (
       <Router>
         <Scene key="root">
-          <Scene key="Main" component={Main} />
-          <Scene key="Home" component={Home} />
-          <Scene key="SignUp" component={SignUp} initial />
-          <Scene key="Page1" component={Page1} />
+          <Scene key="Main" component={Main} hideNavBar={true} initial />
+          <Scene key="Home" component={Home} hideNavBar={true} />
+          <Scene key="SignUp" component={SignUp} hideNavBar={true} />
+          <Scene key="Page1" component={Page1} hideNavBar={true} />
         </Scene>
       </Router>
     );

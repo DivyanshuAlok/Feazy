@@ -33,8 +33,8 @@ export default class Main extends Component {
 
   render() {
     return (
-      <View>
-        {this.state.authenticated ? (<Text>authenticated</Text>) : (<Text>authenticated</Text>)}
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Loading</Text>
       </View>
     )
   }
