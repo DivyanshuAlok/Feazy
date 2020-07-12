@@ -52,7 +52,7 @@ const SignUp = () => {
           [
             {
               text: 'Ok',
-              onPress: () => Actions.Page1(),
+              onPress: () => Actions.HomeTabs(),
             }
           ],
           { cancelable: false }

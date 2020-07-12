@@ -17,7 +17,7 @@ const Home = () => {
       let response = await auth().signInWithEmailAndPassword(email, password)
       if (response && response.user) {
         ToastAndroid.show("Authenticated successfully", ToastAndroid.SHORT);
-        Actions.Page1();
+        Actions.HomeTabs();
       }
     } catch (e) {
       console.error(e.message);

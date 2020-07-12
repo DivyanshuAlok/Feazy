@@ -24,7 +24,7 @@ export default class Main extends Component {
     if (user) {
       console.log(user);
       console.log('yes');
-      Actions.Page1();
+      Actions.HomeTabs();
     } else {
       console.log('not');
       Actions.Home();
