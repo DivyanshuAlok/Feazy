@@ -27,6 +27,7 @@ export default class Main extends Component {
       Actions.Page1();
     } else {
       console.log('not');
+      Actions.Home();
     }
   };
 

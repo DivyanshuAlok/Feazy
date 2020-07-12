@@ -91,7 +91,7 @@ const Home = () => {
               </View>
               <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 70 }}>
                 <Text style={{ color: '#BEBEBE', fontWeight: 'bold', fontSize: 17 }}>Not yet a member, </Text>
-                <TouchableOpacity><Text style={{ fontWeight: 'bold', color: '#00CB2C', fontSize: 17, textDecorationLine: 'underline' }}>Sign Up</Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => Actions.SignUp()}><Text style={{ fontWeight: 'bold', color: '#00CB2C', fontSize: 17, textDecorationLine: 'underline' }}>Sign Up</Text></TouchableOpacity>
               </View>
             </View>
           </View>
